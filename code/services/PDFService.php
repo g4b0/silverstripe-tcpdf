@@ -154,7 +154,7 @@ class PDFService {
 	 * @param String $content The name of the file to fix links within
 	 */
 	protected function fixLinks($content) {
-		$value = new SS_HTMLValue($content);
+		$value = Injector::inst()->create('HTMLValue', $content);
 		$base = $value->getElementsByTagName('base');
 		if ($base && $base->item(0)) {
 			$base = $base->item(0)->getAttribute('href');
