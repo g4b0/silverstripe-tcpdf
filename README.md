@@ -6,19 +6,25 @@
 
 ## Requirements
 
-* SilverStripe 3.0
+* SilverStripe >= 3.0
+
+## Installation
+
+```
+composer require mparkhill/ss-tcpdf *
+```
 
 ## Documentation
 
-Generate PDF files on-the-fly without requiring external extensions.
+Generate PDF files on-the-fly with php.
 
-This module provides a SilverStripe service wrapper around TCPDF, a 
-php class for generating PDF documents, see: http://tcpdf.org.
+This module provides a SilverStripe service wrapper around [TCPDF](http://tcpdf.org),
+a php class for generating PDF documents.
 
 The idea here is to provide pdf generation without the use of third party
-libraries. There are other silverstripe pdf modules, but so far they all 
-depend on a third party Java app that is executed via a command line call 
-to do the actual PDF conversion. 
+libraries that rely on command line execution. There are other silverstripe
+pdf modules that depend on a third party Java app that is executed via a
+command line call to do the actual PDF conversion.
 
 ## Usage Overview
 
