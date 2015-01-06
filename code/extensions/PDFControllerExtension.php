@@ -10,13 +10,13 @@ class PDFControllerExtension extends Extension {
 	/**
 	 * @var array
 	 */
-    public static $allowed_actions = array(
+    private static $allowed_actions = array(
 		'topdf',
 	);
 
 	/**
 	 * Return a link to generate the current content item as a PDF
-	 * 
+	 *
 	 * @return string
 	 */
 	public function PdfLink() {
