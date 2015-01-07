@@ -22,7 +22,7 @@
 		"composer/installers": "*"
 	},
 	"support": {
-		"issues": "https://github.com/mparkhill/ss-tcpdf/issues"
+		"issues": "https://github.com/mparkhill/silverstripe-tcpdf/issues"
 	},
 	"extra": {
 		"installer-name": "tcpdf"
