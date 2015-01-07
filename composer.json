@@ -1,9 +1,9 @@
 {
-	"name": "mparkhill/ss-tcpdf",
+	"name": "mparkhill/silverstripe-tcpdf",
 	"description": "SilverStripe service wrapper for TCPDF, a PHP class for generating PDF documents",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "tcpdf", "pdf"],
-    "license": "BSD-3-Clause",
+    	"license": "BSD-3-Clause",
 	"authors": [
 		{
 			"name": "Michael Parkhill",
