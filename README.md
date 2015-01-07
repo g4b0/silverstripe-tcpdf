@@ -11,7 +11,7 @@
 ## Installation
 
 ```
-composer require mparkhill/ss-tcpdf *
+composer require mparkhill/silverstripe-tcpdf *
 ```
 
 ## Documentation
