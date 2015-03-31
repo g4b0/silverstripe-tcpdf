@@ -5,7 +5,7 @@
  * @author Michael Parkhill <mike@silverstripe.com>
  * @license http://silverstripe.org/bsd-license/
  */
-class PDFService {
+class PDFService extends Object {
 
 	/**
 	 * @var string
@@ -175,6 +175,8 @@ class PDFService {
 
 	/**
 	 * Replace html entities
+	 *
+	 * @return String
 	 */
 	protected function fixEntities($content) {
 		$search = array('&nbsp;', 'Â');
@@ -216,5 +218,4 @@ class PDFService {
 		}
 		return $response;
 	}
-
 }
