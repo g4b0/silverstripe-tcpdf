@@ -6,12 +6,12 @@
 
 ## Requirements
 
-* SilverStripe >= 3.0
+* SilverStripe >= 3.1.*
 
 ## Installation
 
-```
-composer require mparkhill/silverstripe-tcpdf *
+```yaml
+composer require mparkhill/silverstripe-tcpdf
 ```
 
 ## Documentation
