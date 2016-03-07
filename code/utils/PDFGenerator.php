@@ -10,7 +10,7 @@
  * Its required to include this library manually as it has been 
  * excluded from the SS manifest to improve flush load times 
  */
-require BASE_PATH.'/tcpdf/thirdparty/tcpdf/tcpdf.php';
+require BASE_PATH.'/'.TCPDF_DIR.'/thirdparty/tcpdf/tcpdf.php';
 
 class PDFGenerator extends TCPDF
 {
